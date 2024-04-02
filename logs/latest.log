@@ -1,0 +1,29 @@
+[00:08:30] [Server thread/INFO]: LisBoy was slain by Zombie
+[00:08:37] [Server thread/INFO]: Villager class_1646['Villager'/9, l='ServerLevel[world]', x=-318.46, y=74.00, z=-235.30] died, message: 'Villager was slain by Zombie'
+[00:08:55] [Server thread/INFO]: rat_monky lost connection: Disconnected
+[00:08:55] [Server thread/INFO]: rat_monky left the game
+[00:09:09] [Server thread/INFO]: <LisBoy> hey can you hear me?
+[00:09:18] [Server thread/INFO]: <LisBoy> no wonder
+[00:09:27] [Server thread/INFO]: <LisBoy> yeah
+[00:09:34] [Server thread/INFO]: <LisBoy> for a bit lol
+[00:10:17] [Server thread/INFO]: <LisBoy> I was talking for a while
+[00:10:25] [Server thread/INFO]: <LisBoy> to myself apparently
+[00:10:38] [Server thread/INFO]: <LisBoy> So very sad
+[00:10:53] [Server thread/INFO]: <LisBoy> But yeah, I'm going to headout too
+[00:11:00] [Server thread/INFO]: <LisBoy> to actual bed
+[00:11:12] [Server thread/INFO]: <LisBoy> bye!!!
+[00:11:18] [Server thread/INFO]: LisBoy lost connection: Disconnected
+[00:11:18] [Server thread/INFO]: LisBoy left the game
+[00:11:20] [Server thread/INFO]: Minowkii lost connection: Disconnected
+[00:11:20] [Server thread/INFO]: Minowkii left the game
+[01:51:15] [Server thread/INFO]: Stopping the server
+[01:51:15] [Server thread/INFO]: Stopping server
+[01:51:15] [Server thread/INFO]: Saving players
+[01:51:15] [Server thread/INFO]: Saving worlds
+[01:51:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:51:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:51:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
