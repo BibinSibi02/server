@@ -1,29 +1,234 @@
-[00:08:30] [Server thread/INFO]: LisBoy was slain by Zombie
-[00:08:37] [Server thread/INFO]: Villager class_1646['Villager'/9, l='ServerLevel[world]', x=-318.46, y=74.00, z=-235.30] died, message: 'Villager was slain by Zombie'
-[00:08:55] [Server thread/INFO]: rat_monky lost connection: Disconnected
-[00:08:55] [Server thread/INFO]: rat_monky left the game
-[00:09:09] [Server thread/INFO]: <LisBoy> hey can you hear me?
-[00:09:18] [Server thread/INFO]: <LisBoy> no wonder
-[00:09:27] [Server thread/INFO]: <LisBoy> yeah
-[00:09:34] [Server thread/INFO]: <LisBoy> for a bit lol
-[00:10:17] [Server thread/INFO]: <LisBoy> I was talking for a while
-[00:10:25] [Server thread/INFO]: <LisBoy> to myself apparently
-[00:10:38] [Server thread/INFO]: <LisBoy> So very sad
-[00:10:53] [Server thread/INFO]: <LisBoy> But yeah, I'm going to headout too
-[00:11:00] [Server thread/INFO]: <LisBoy> to actual bed
-[00:11:12] [Server thread/INFO]: <LisBoy> bye!!!
-[00:11:18] [Server thread/INFO]: LisBoy lost connection: Disconnected
-[00:11:18] [Server thread/INFO]: LisBoy left the game
-[00:11:20] [Server thread/INFO]: Minowkii lost connection: Disconnected
-[00:11:20] [Server thread/INFO]: Minowkii left the game
-[01:51:15] [Server thread/INFO]: Stopping the server
-[01:51:15] [Server thread/INFO]: Stopping server
-[01:51:15] [Server thread/INFO]: Saving players
-[01:51:15] [Server thread/INFO]: Saving worlds
-[01:51:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:51:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:51:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:51:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:52:26] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.7
+[15:52:26] [main/INFO]: Loading 121 mods:
+	- adventurez 1.4.18
+	- amplified_nether 1.2.2
+	- appleskin 2.5.0+mc1.20
+	- auditory 0.0.6-1.20.1
+	- autotag-convention 2.0.2+1.20
+	   \-- autotag 2.0.2+1.20
+	- bedspreads 6.2.0+1.20.1
+	- betteradvancements 0.3.2.161
+	- betterdungeons 1.20-Fabric-4.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- cavedust 1.4.1
+	   \-- kirin 1.15.0
+	- cherishedworlds 6.1.0+1.20.1
+	- cloth-config 11.1.106
+	   \-- cloth-basic-math 0.6.1
+	- comforts 6.3.4+1.20.1
+	   |-- cardinal-components-base 5.2.1
+	   |-- cardinal-components-entity 5.2.1
+	   \-- spectrelib 0.13.14+1.20.1
+	        |-- com_electronwill_night-config_core 3.6.5
+	        \-- com_electronwill_night-config_toml 3.6.5
+	- connectiblechains 2.2.1+1.20.1
+	- continents 1.1.4
+	- creativecore 2.10.24
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- cupboard 1.20.1-2.1
+	- dataloader 1.1.3+1.19.4-1.20-pre5
+	- diagonalfences 8.0.0
+	- easyanvils 8.0.0
+	- easymagic 8.0.0
+	- enhancedvisuals 1.6.7
+	- fabric-api 0.91.0+1.20.1
+	   |-- fabric-api-base 0.4.30+7abfd51577
+	   |-- fabric-api-lookup-api-v1 1.6.35+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.12+215bbe9677
+	   |-- fabric-block-api-v1 1.0.10+92a0d36777
+	   |-- fabric-block-view-api-v2 1.0.0+92a0d36777
+	   |-- fabric-blockrenderlayer-v1 1.1.40+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.1.1+97bb207577
+	   |-- fabric-command-api-v1 1.2.33+f71b366f77
+	   |-- fabric-command-api-v2 2.2.12+b3afc78b77
+	   |-- fabric-commands-v0 0.2.50+df3654b377
+	   |-- fabric-containers-v0 0.1.63+df3654b377
+	   |-- fabric-content-registries-v0 4.0.10+57aed33f77
+	   |-- fabric-convention-tags-v1 1.5.4+a1a980da77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.3.3+d7b148e077
+	   |-- fabric-dimensions-v1 2.1.53+8536527b77
+	   |-- fabric-entity-events-v1 1.5.22+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.1+e91849a877
+	   |-- fabric-events-lifecycle-v0 0.2.62+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.39+ae9f657a77
+	   |-- fabric-item-api-v1 2.1.27+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.11+d7b148e077
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.21+b3afc78b77
+	   |-- fabric-loot-api-v2 1.2.0+96dfa95977
+	   |-- fabric-loot-tables-v1 1.1.44+9e7660c677
+	   |-- fabric-message-api-v1 5.1.8+d7b148e077
+	   |-- fabric-mining-level-api-v1 2.1.49+b3afc78b77
+	   |-- fabric-model-loading-api-v1 1.0.2+709a987177
+	   |-- fabric-models-v0 0.4.1+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.10+eeb8eb3677
+	   |-- fabric-networking-v0 0.3.50+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.2+4ee0bc6077
+	   |-- fabric-particles-v1 1.1.1+201a23a077
+	   |-- fabric-recipe-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.3.2+4df89eb277
+	   |-- fabric-renderer-api-v1 3.2.0+39a511ba77
+	   |-- fabric-renderer-indigo 1.5.0+39a511ba77
+	   |-- fabric-renderer-registries-v1 3.2.45+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.36+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.27+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.48+df3654b377
+	   |-- fabric-rendering-v1 3.0.7+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.7+29de845d77
+	   |-- fabric-resource-loader-v0 0.11.9+132c48c177
+	   |-- fabric-screen-api-v1 2.0.7+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.29+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.3.3+c81d263177
+	   \-- fabric-transitive-access-wideners-v1 4.3.0+6c31357e77
+	- fabricloader 0.15.7
+	   \-- mixinextras 0.3.5
+	- farsight 1.20.1-4.2
+	   \-- org_jctools_jctools-core 4.0.1
+	- forgeconfigapiport 8.0.0
+	- herdspanic 1.0.7
+	- iceberg 1.1.18
+	- incendium 5.3.4
+	- inmis 2.7.2-1.20.1
+	   \-- omega-config 1.2.3-1.18.1
+	- inmisaddon 1.0.4
+	- jamlib 0.6.0+1.20
+	- java 17
+	- lazydfu 0.1.3
+	- libz 1.0.1
+	- lithium 0.11.2
+	- lootr 0.7.29.75
+	- midnightlib 1.4.1
+	- minecraft 1.20.1
+	- morebannerfeatures 1.2.0
+	- moremobvariants 1.2.2
+	- mousewheelie 1.11.1+mc1.20-pre2
+	   |-- amecsapi 1.4.0+mc1.20-pre1
+	   |-- coat 1.0.0-beta.20+mc1.20-pre1
+	   |-- fabric-key-binding-api-v1 1.0.35+fb8d95da81
+	   |-- fabric-screen-api-v1 2.0.5+8aafb88781
+	   |-- tweed4_annotated 1.3.1+mc1.20-pre1
+	   |-- tweed4_base 1.7.1+mc1.20-pre1
+	   |-- tweed4_data 1.2.1+mc1.20-pre1
+	   |-- tweed4_data_hjson 1.1.1+mc1.20-pre1
+	   |-- tweed4_tailor_coat 1.1.3+mc1.20-pre1
+	   |-- tweed4_tailor_lang_json_descriptions 1.1.0+mc1.20-pre1
+	   \-- tweed4_tailor_screen 1.1.4+mc1.20-pre1
+	- nullscape 1.2.4
+	- puzzleslib 8.0.7
+	- repurposed_structures 7.0.0+1.20-fabric
+	- rightclickharvest 3.2.2+1.19.x-1.20.1-fabric
+	- shulkerboxtooltip 4.0.4+1.20.1
+	- soulfired 3.2.0.0
+	- sound_physics_remastered 1.20.1-1.1.1
+	- stimber 1.4.0
+	   \-- timber 1.4.0
+	- structory 1.3.4
+	- terralith 2.4.11
+	- tiered 1.3.0
+	   \-- reach-entity-attributes 2.4.0
+	- tinyskeletons 8.0.0
+	- trade_cycling 1.20.1-1.0.5
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- trinkets 3.7.1
+	- universalbonemeal 8.0.0
+	- vanillatweaks 1.5.69
+	- wakes 0.1.6
+	   \-- blue_endless_jankson 1.2.2
+	- yungsapi 1.20-Fabric-4.0.2
+	   \-- org_javassist_javassist 3.29.2-GA
+[15:52:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Bibin/Desktop/git/server/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[15:52:27] [main/INFO]: Compatibility level set to JAVA_17
+[15:52:27] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 0 override(s) found
+[15:52:27] [main/WARN]: Reference map 'wakes-refmap.json' for wakes.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:52:27] [main/WARN]: Error loading class: net/minecraft/class_638$class_5271 (java.lang.ClassNotFoundException: net/minecraft/class_638$class_5271)
+[15:52:27] [main/WARN]: @Mixin target net.minecraft.class_638$class_5271 was not found dust.mixins.json:ClientWorldAccessor from mod cavedust
+[15:52:27] [main/WARN]: Error loading class: net/minecraft/class_340 (java.lang.ClassNotFoundException: net/minecraft/class_340)
+[15:52:27] [main/WARN]: @Mixin target net.minecraft.class_340 was not found dust.mixins.json:MixinDebugScreenOverlay from mod cavedust
+[15:52:27] [main/WARN]: Error loading class: net/minecraft/class_293 (java.lang.ClassNotFoundException: net/minecraft/class_293)
+[15:52:27] [main/WARN]: @Mixin target net.minecraft.class_293 was not found creativecore.fabric.mixins.json:VertexFormatMixin from mod creativecore
+[15:52:27] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[15:52:27] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found inmis.mixins.json:client.PlayerEntityFeatureMixin from mod inmis
+[15:52:27] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
+[15:52:27] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found sound_physics_remastered.mixins.json:ChannelAccessor from mod sound_physics_remastered
+[15:52:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[15:52:30] [main/INFO]: Constructing shapes for nodeWith 2.0, extensionWidth 2.0, nodeHeight 24.0, extensionBottom 0.0, extensionHeight 24.0 took 54 milliseconds
+[15:52:30] [main/INFO]: Constructing shapes for nodeWith 2.0, extensionWidth 2.0, nodeHeight 16.0, extensionBottom 0.0, extensionHeight 16.0 took 35 milliseconds
+[15:52:30] [main/INFO]: Constructing shapes for nodeWith 2.0, extensionWidth 1.0, nodeHeight 16.0, extensionBottom 6.0, extensionHeight 15.0 took 57 milliseconds
+[15:52:33] [main/INFO]: [STDOUT]: Registering Sounds for auditory
+[15:52:33] [main/INFO]: Thank you for downloading Auditory! :)
+[15:52:33] [main/INFO]: Reflections took 41 ms to scan 1 urls, producing 1 keys and 3 values
+[15:52:33] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[15:52:33] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[15:52:33] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[15:52:33] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[15:52:33] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[15:52:33] [main/WARN]: WARNING: block Block{minecraft:iron_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
+[15:52:33] [main/INFO]: Initialized entity types.
+[15:52:33] [main/INFO]: Constructing common components for mod diagonalfences
+[15:52:33] [main/INFO]: Constructing common components for mod easyanvils
+[15:52:33] [main/INFO]: Constructing common components for mod easymagic
+[15:52:33] [main/INFO]: [jamlib] Mod initialized!
+[15:52:33] [main/INFO]: Giving mobs a fresh coat of paint...
+[15:52:33] [main/INFO]: Constructing common components for mod puzzleslib
+[15:52:33] [main/INFO]: [rightclickharvest] Initializing VersionUtils
+[15:52:33] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
+[15:52:33] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[15:52:33] [main/INFO]: [rightclickharvest] Mod initialized!
+[15:52:34] [main/INFO]: Reloading reverb parameters
+[15:52:34] [main/INFO]: Constructing common components for mod tinyskeletons
+[15:52:34] [main/ERROR]: No data fixer registered for baby_skeleton
+[15:52:34] [main/ERROR]: No data fixer registered for baby_wither_skeleton
+[15:52:34] [main/ERROR]: No data fixer registered for baby_stray
+[15:52:34] [main/INFO]: Constructing common components for mod universalbonemeal
+[15:52:34] [main/INFO]: Setup Complete
+[15:52:34] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[15:52:34] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[15:52:34] [main/INFO]: Reloaded configs for mousewheelie (server/highest)
+[15:52:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:52:35] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[15:52:36] [main/INFO]: Loaded 7 recipes
+[15:52:36] [main/INFO]: Loaded 1448 advancements
+[15:52:36] [main/INFO]: Reloading config...
+[15:52:36] [main/INFO]: Loaded 144 recipes
+[15:52:36] [main/INFO]: Reloaded configs for mousewheelie (server/smallest)
+[15:52:36] [main/INFO]: Applied 726 biome modifications to 173 of 174 new biomes in 19.03 ms
+[15:52:36] [Server thread/INFO]: Loading server config for easyanvils
+[15:52:36] [Server thread/INFO]: Loading server config for easymagic
+[15:52:36] [Server thread/INFO]: Loading server config for universalbonemeal
+[15:52:36] [Thread-2/INFO]: Reloading server config for easymagic
+[15:52:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:52:36] [Server thread/INFO]: Loading properties
+[15:52:36] [Server thread/INFO]: Default game type: SURVIVAL
+[15:52:36] [Server thread/INFO]: Generating keypair
+[15:52:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:52:36] [Server thread/INFO]: Using default channel type
+[15:52:36] [Server thread/INFO]: Preparing level "world"
+[15:52:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:52:39] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[15:52:39] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:52:39] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[15:52:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:52:40] [Worker-Main-18/INFO]: Preparing spawn area: 0%
+[15:52:40] [Worker-Main-4/INFO]: Preparing spawn area: 50%
+[15:52:40] [Server thread/INFO]: Time elapsed: 2646 ms
+[15:52:40] [Server thread/INFO]: Done (3.867s)! For help, type "help"
+[15:52:40] [Server thread/INFO]: Loaded config for: cupboard.json
+[15:52:40] [Server thread/INFO]: Loaded config for: farsight.json
+[15:52:40] [Server thread/INFO]: Reloaded configs for mousewheelie (server/world)
+[15:53:39] [Server thread/INFO]: Stopping the server
+[15:53:39] [Server thread/INFO]: Stopping server
+[15:53:39] [Server thread/INFO]: Saving players
+[15:53:39] [Server thread/INFO]: Saving worlds
+[15:53:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:53:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:53:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:53:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:53:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:53:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:53:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
